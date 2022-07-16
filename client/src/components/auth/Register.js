@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { AuthConsumer } from '../../providers/AuthProvider';
 
 const Register = ({handleRegister}) => {
-  const [user,setUser] = usestate({email: '', password: '', passwordConfirmation: ''})
+  const [user,setUser] = usestate({email: '', password: '', passwordConfirmation: '', image:''})
 
   const handleSubmit = (e) => {
     e.preventDefault()
