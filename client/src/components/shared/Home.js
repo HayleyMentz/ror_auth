@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import CatHeader from '../../images/catHeader.jpg';
+import CatHeader from '../../images/catHeader.jpeg';
 import Cat from '../../images/cat.png';
 import { Row, Col, Container, Accordion, Button } from 'react-bootstrap';
 import { Fade, Slide } from 'react-awesome-reveal';
